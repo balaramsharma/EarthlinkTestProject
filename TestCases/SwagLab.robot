@@ -1,5 +1,5 @@
 *** Settings ***
-Resource    ${EXECDIR}${/}Resources${/}CommonKeywords.robot
+Resource    ${EXECDIR}${/}Resources${/}SwagLabKeywords.robot
 
 Suite Setup  Run Keywords   Open My Browser  ${browser}   AND    Set Selenium Speed   0.2s
 Suite Teardown    Close Browser
